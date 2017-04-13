@@ -10,17 +10,17 @@ ConstructorInitializerIndentWidth: 4
 SortIncludes: false
 
 AlignAfterOpenBracket: true
-AlignEscapedNewlinesLeft: true
-AlignOperands: false
-AlignTrailingComments: true
-
-AllowAllParametersOfDeclarationOnNextLine: false
-AllowShortBlocksOnASingleLine: false
-AllowShortCaseLabelsOnASingleLine: false
-AllowShortFunctionsOnASingleLine: true
-AllowShortIfStatementsOnASingleLine: true
-AllowShortFunctionsOnASingleLine: All
-AllowShortLoopsOnASingleLine: true
+AlignEscapedNewlinesLeft: true 
+                                                                     
+AlignOperands: false   
+AlignTrailingComments: true   
+AllowAllParametersOfDeclarationOnNextLine: true  # Modified
+AllowShortBlocksOnASingleLine: false  
+AllowShortCaseLabelsOnASingleLine: false  
+AllowShortFunctionsOnASingleLine: false    # Modified
+AllowShortIfStatementsOnASingleLine: false  # Modified
+AllowShortFunctionsOnASingleLine: None     # Modified
+AllowShortLoopsOnASingleLine: false      # Modified
 
 AlwaysBreakAfterDefinitionReturnType: false
 AlwaysBreakTemplateDeclarations: false
@@ -39,7 +39,7 @@ ExperimentalAutoDetectBinPacking: false
 IndentCaseLabels: true
 IndentWrappedFunctionNames: false
 IndentFunctionDeclarationAfterType: false
-MaxEmptyLinesToKeep: 2
+MaxEmptyLinesToKeep: 1   # Modified
 KeepEmptyLinesAtTheStartOfBlocks: false
 NamespaceIndentation: Inner
 ObjCBlockIndentWidth: 4
@@ -63,7 +63,7 @@ BraceWrapping:
     AfterClass: true
     AfterControlStatement: false
     AfterEnum: false
-    AfterFunction: true
+    AfterFunction: false         # Modified
     AfterNamespace: true
     AfterObjCDeclaration: true
     AfterStruct: false
