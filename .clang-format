@@ -14,7 +14,7 @@ AlignEscapedNewlinesLeft: true
                                                                      
 AlignOperands: false   
 AlignTrailingComments: true   
-AllowAllParametersOfDeclarationOnNextLine: true  # Modified
+AllowAllParametersOfDeclarationOnNextLine: false
 AllowShortBlocksOnASingleLine: false  
 AllowShortCaseLabelsOnASingleLine: false  
 AllowShortFunctionsOnASingleLine: false    # Modified
