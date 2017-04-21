@@ -32,7 +32,7 @@ BreakConstructorInitializersBeforeComma: false
 
 BinPackArguments: true
 BinPackParameters: true
-ColumnLimit: 0
+ColumnLimit: 160    # Modified
 ConstructorInitializerAllOnOneLineOrOnePerLine: true
 DerivePointerAlignment: false
 ExperimentalAutoDetectBinPacking: false
@@ -65,7 +65,7 @@ BraceWrapping:
     AfterEnum: false
     AfterFunction: false         # Modified
     AfterNamespace: true
-    AfterObjCDeclaration: true
+    AfterObjCDeclaration: false  # Modified
     AfterStruct: false
     AfterUnion: false
     BeforeCatch: false
